@@ -1,59 +1,39 @@
 .wb-btn {
   background-color: #dbd6d6;
-  border: none;
-  color: black;
+  border: 1.5px #000000;
+  border-style: solid;
+  outline: none;
+  color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  border-radius: 30%;
+  font-size: 18px;
+  border-radius: 35%;
+  box-shadow: 0 6px #888f91;
+}
+
+.wb-btn:active {
+  box-shadow: 0 3px #6e7172;
+  transform: translateY(3px);
+}
+
+.wb-btn:hover {
+  opacity: .85;
 }
 
 .wb-info-btn {
   background-color: #4abde0;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 30%;
 }
 
 .wb-yes-btn {
   background-color: #396d31;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 30%;
 }
 
 .wb-warning-btn {
   background-color: #eddb1e;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 30%;
 }
 
 .wb-no-btn {
   background-color: #ba2828;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 30%;
 }
