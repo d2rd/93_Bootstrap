@@ -1,7 +1,14 @@
+address {
+  margin-bottom: 22px;
+  font-style: inherit;
+  line-height: 1.5;
+}
+
 body {
   font-size: 14px;
   font-family: 'Amiko', sans-serif;
-  line-height: 1.5
+  line-height: 1.5;
+  letter-spacing: 1.5px;
 }
 
 .lead {
