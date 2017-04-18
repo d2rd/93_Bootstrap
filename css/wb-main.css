@@ -94,3 +94,38 @@
   opacity: .85;
   color: #ba2828;
 }
+
+
+/* Breadcrumbs */
+ /*Style the list */
+ul.wb-breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+  font-sive: 17px;
+  }
+
+ /* Display list items side by side */
+ ul.wb-breadcrumb li {
+   display: inline;
+ }
+
+ /* Add a pipe symbol(|) as separators */
+ ul.wb-breadcrumb li+li:before {
+   padding: 8px;
+   color: black;
+   content: "|";
+   }
+
+  /* Add a color to all links inside the list */
+  ul.wb-breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+
+/* Add color on mouse-over */
+ul.wb-breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: overline underline;
+  font-style: italic;
+}
