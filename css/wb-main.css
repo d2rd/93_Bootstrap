@@ -66,3 +66,31 @@
 .wb-no-btn {
   background-color: #ba2828;
 }
+
+
+.wb-btn-clear {
+  background-color: transparent;
+  border: 1.5px none;
+  border-style: none;
+  outline: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 35%;
+  box-shadow: 0 6px none;
+}
+
+.wb-btn-clear:active {
+ /* box-shadow: 0 3px #000000;*/
+  transform: translateY(3px);
+  border: 1.5px #000000;
+  border-style: solid;
+}
+
+.wb-btn-clear:hover {
+  opacity: .85;
+  color: #ba2828;
+}
