@@ -1,3 +1,32 @@
+/* header */
+
+.size1 {
+  font-size: 32px;
+}
+
+.size2 {
+  font-size: 28px;
+}
+
+.size3 {
+  font-size: 24px;
+}
+
+.size4 {
+  font-size: 20px;
+}
+
+.size5 {
+  font-size: 16px;
+}
+
+.size6 {
+  font-size: 12px;
+}
+
+
+/* default buttons */
+
 .wb-btn {
   background-color: #dbd6d6;
   border: 1.5px #000000;
