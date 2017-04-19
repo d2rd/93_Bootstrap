@@ -16,6 +16,16 @@ body {
   font-family: 'Patrick Hand', sans-serif;
 }
 
+.wb-blockquote {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #369fe0;
+  font: 18px/22px normal sans-serif;
+  letter-spacing: 0px;
+}
+
 
 /* header */
 
