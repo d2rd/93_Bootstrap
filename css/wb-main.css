@@ -54,6 +54,18 @@ body {
 }
 
 
+/* alert */
+
+.wb-alert {
+  border: 1.5px #000000;
+  border-radius: 5px;
+  border-style: solid;
+  color: #ffffff;
+  margin-bottom: 15px;
+  padding: 18px;
+}
+
+
 /* default buttons */
 
 .wb-btn {
@@ -67,7 +79,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  border-radius: 35%;
+  border-radius: 18px;
   box-shadow: 0 6px #888f91;
 }
 
@@ -80,19 +92,24 @@ body {
   opacity: .85;
 }
 
-.wb-info-btn {
+.wb-info-btn,
+.wb-info-alert {
   background-color: #4abde0;
 }
 
-.wb-yes-btn {
+.wb-yes-btn,
+.wb-success-alert {
   background-color: #396d31;
 }
 
-.wb-warning-btn {
+.wb-warning-btn,
+.wb-warning-alert {
   background-color: #eddb1e;
+  color: #000000;
 }
 
-.wb-disaster-btn {
+.wb-disaster-btn,
+.wb-disaster-alert {
   background-color: #ba2828;
 }
 
@@ -106,7 +123,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  border-radius: 35%;
+  border-radius: 18px;
 }
 
 .wb-clear-btn:active {
