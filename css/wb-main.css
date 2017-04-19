@@ -65,6 +65,19 @@ body {
   padding: 18px;
 }
 
+.wb-alert-close {
+  margin-left: 15px;
+  color: #888f91;
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.4s
+}
+
+.wb-alert-close:hover {
+  color: #dbd6d6
+}
+
 
 /* default buttons */
 
