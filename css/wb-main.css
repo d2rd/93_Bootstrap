@@ -194,3 +194,21 @@ ul.wb-breadcrumb li a:hover {
   text-decoration: overline underline;
   font-style: italic;
 }
+
+
+/* List Group */
+
+.wb-listgroup {
+  margin-bottom: 22px;
+  padding-left: 0px;
+  padding-right: 60%;
+}
+
+.wb-listgroup-item {
+  background-color: #ffffff;
+  border: 1px solid #dbd6d6;
+  margin-bottom: -1px;
+  padding: 10px 15px;
+  position: relative;
+  display: block;
+}
