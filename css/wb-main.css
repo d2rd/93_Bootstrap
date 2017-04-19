@@ -54,7 +54,7 @@ body {
 }
 
 
-/* alert */
+/* alert KO */
 
 .wb-alert {
   border: 1.5px #000000;
@@ -79,7 +79,7 @@ body {
 }
 
 
-/* default buttons */
+/* default buttons KO */
 
 .wb-btn {
   background-color: #dbd6d6;
@@ -151,46 +151,173 @@ body {
 
 
 /* Breadcrumbs */
+  /*Style the list */
+
+  ul.wb-breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #dbd6d6;
+    font-size: 18px;
+  }
 
 
-/*Style the list */
+  /* Display list items side by side */
 
-ul.wb-breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-  background-color: #dbd6d6;
-  font-size: 18px;
-}
+  ul.wb-breadcrumb li {
+    display: inline;
+  }
 
 
-/* Display list items side by side */
+  /* Add a pipe symbol(|) as separators */
 
-ul.wb-breadcrumb li {
-  display: inline;
-}
-
-
-/* Add a pipe symbol(|) as separators */
-
-ul.wb-breadcrumb li+li:before {
-  padding: 8px;
-  color: #000000;
-  content: "|";
-}
+  ul.wb-breadcrumb li+li:before {
+    padding: 8px;
+    color: #000000;
+    content: "|";
+  }
 
 
-/* Add a color to all links inside the list */
+  /* Add a color to all links inside the list */
 
-ul.wb-breadcrumb li a {
-  color: #000000;
-  text-decoration: none;
-}
+  ul.wb-breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+  }
 
 
-/* Add color on mouse-over */
+  /* Add color on mouse-over */
 
-ul.wb-breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: overline underline;
-  font-style: italic;
-}
+  ul.wb-breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: overline underline;
+    font-style: italic;
+  }
+
+/* Labels . */
+  .label{
+    display: inline;
+    padding: .2em .6em .3em;
+      padding-top: 0.2em;
+      padding-right: 0.6em;
+      padding-bottom: 0.3em;
+      padding-left: 0.6em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .50em;
+      border-top-left-radius: 0.35em;
+      border-top-right-radius: 0.35em;
+      border-bottom-right-radius: 0.50em;
+      border-bottom-left-radius: 0.50em;
+
+  }
+
+/* Label Color Classes*/
+
+   .wb-default-lbl {
+      background-color: #dbd6d6;
+    }
+    .wb-info-lbl {
+      background-color: #4abde0;
+    }
+
+    .wb-yes-lbl {
+      background-color: #396d31;
+    }
+
+    .wb-warning-lbl {
+      background-color: #eddb1e;
+    }
+
+    .wb-disaster-lbl {
+      background-color: #ba2828;
+    }
+    .wb-orange-lbl {
+      background-color: #ff910f;
+    }
+
+    .wb-purple-lbl {
+      background-color: #474eff;
+    }
+
+    .wb-lime-lbl {
+      background-color: #75bc53;
+    }
+
+/* Label Shape Classes . */
+  .label-default{
+    display: inline;
+    padding: 15px 32px;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    width: 50%;
+    height: 100%;
+    border-radius: 18px;
+ 
+  }
+  
+  .label-square{
+    display: inline;
+    padding: .75% .75% .75%;
+    width: 100px
+    height: 100px
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+  }
+  
+  .label-oval{
+    display: inline;
+    padding: 1% 1% 1%;
+      padding-top: 1%;
+      padding-right: 1%;
+      padding-bottom: 1%;
+      padding-left: 1%;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 100%;
+      border-top-left-radius: 100%;
+      border-top-right-radius: 100%;
+      border-bottom-right-radius: 100%;
+      border-bottom-left-radius: 100%;
+      }
+  
+  .label-levis{
+    display: inline;
+    padding: .2em .6em .3em;
+      padding-top: 0.2em;
+      padding-right: 0.6em;
+      padding-bottom: 0.3em;
+      padding-left: 0.6em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .40%;
+      border-top-left-radius: 0%;
+      border-top-right-radius: 0%;
+      border-bottom-right-radius: 40%;
+      border-bottom-left-radius: 40%;
+
+  }
