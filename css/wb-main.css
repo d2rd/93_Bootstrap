@@ -382,6 +382,92 @@ ul.wb-breadcrumb li a:hover {
 }
 
 
+/* Panels KO */
+
+.wb-panel {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
+
+.wb-panel-heading {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 1px solid transparent;
+  padding: 10px 15px;
+}
+
+.wb-panel-title {
+  color: inherit;
+  font-weight: bold;
+}
+
+.wb-panel-body {
+  padding: 16px;
+}
+
+.wb-panel-footer {
+  background-color: #dbd6d6;
+  border-top: 1px solid #dbd6d6;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 10px 16px;
+}
+
+.wb-panel-default {
+  border-color: #dbd6d6;
+}
+
+.wb-panel-default>.wb-panel-heading {
+  color: #000000;
+  background-color: #6e7172;
+  border-color: #dbd6d6;
+}
+
+.wb-panel-info {
+  border-color: #369fe0
+}
+
+.wb-panel-info>.wb-panel-heading {
+  color: #000000;
+  background-color: #369fe0;
+  border-color: #369fe0;
+}
+
+.wb-panel-success {
+  border-color: #396d31;
+}
+
+.wb-panel-success>.wb-panel-heading {
+  color: #000000;
+  background-color: #396d31;
+  border-color: #396d31;
+}
+
+.wb-panel-warning {
+  border-color: #eddb1e;
+  color: #000000;
+}
+
+.wb-panel-warning>.wb-panel-heading {
+  color: #000000;
+  background-color: #eddb1e;
+  border-color: #eddb1e;
+}
+
+.wb-panel-disaster {
+  border-color: #ba2828;
+}
+
+.wb-panel-disaster>.wb-panel-heading {
+  color: #000000;
+  background-color: #ba2828;
+  border-color: #ba2828;
+}
+
+
 /* Badges DD */
 
 
