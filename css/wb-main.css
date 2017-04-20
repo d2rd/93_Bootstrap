@@ -216,8 +216,7 @@ ul.wb-breadcrumb li a:hover {
 
 /* Labels . */
 
-.label {
-  display: inline;
+.wb-label {
   padding: .2em .6em .3em;
   padding-top: 0.2em;
   padding-right: 0.6em;
@@ -275,13 +274,12 @@ ul.wb-breadcrumb li a:hover {
 
 /* Label Shape Classes . */
 
-.label-default {
-  display: inline;
+.wb-label-default {
   padding: 15px 32px;
   font-size: 100%;
   font-weight: 400;
   line-height: 1;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -290,20 +288,20 @@ ul.wb-breadcrumb li a:hover {
   border-radius: 18px;
 }
 
-.label-square {
-  display: inline;
+.wb-label-square {
   padding: .75% .75% .75%;
-  width: 100px height: 100px font-size: 100%;
+  width: 100px;
+  height: 100px;
+  font-size: 100%;
   font-weight: 700;
   line-height: 2;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
 }
 
-.label-oval {
-  display: inline;
+.wb-label-oval {
   padding: 1% 1% 1%;
   padding-top: 1%;
   padding-right: 1%;
@@ -312,7 +310,7 @@ ul.wb-breadcrumb li a:hover {
   font-size: 100%;
   font-weight: 700;
   line-height: 2;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -323,8 +321,7 @@ ul.wb-breadcrumb li a:hover {
   border-bottom-left-radius: 100%;
 }
 
-.label-levis {
-  display: inline;
+.wb-label-levis {
   padding: .2em .6em .3em;
   padding-top: 0.2em;
   padding-right: 0.6em;
@@ -333,7 +330,7 @@ ul.wb-breadcrumb li a:hover {
   font-size: 100%;
   font-weight: 700;
   line-height: 2;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
