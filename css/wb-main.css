@@ -214,6 +214,40 @@ ul.wb-breadcrumb li a:hover {
 }
 
 
+/* Pagination */
+
+.wb-pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 18px 0;
+  border: 1px solid #dbd6d6;
+  border-radius: 4px;
+}
+
+.wb-pagination a {
+  float: left;
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: background-color .2s;
+  color: #000000;
+}
+
+.wb-pagination a:active {
+  background-color: #369fe0;
+  color: #ffffff;
+}
+
+.wb-pagination a:hover {
+  background-color: #dbd6d6
+}
+
+.wb-pageheader {
+  border-bottom: 2px solid #6e7172;
+  padding-bottom: 2px;
+  margin: 24px 0 24px;
+}
+
+
 /* Labels . */
 
 .wb-label {
