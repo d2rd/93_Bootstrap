@@ -566,17 +566,56 @@ ul.wb-breadcrumb li a:hover {
 
 /* Thumbnail Classes */
 
-.wb-img-default {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+.wb-flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.wb-img-rounded {
-  border-radius: 16px
+.wb-image-rounded {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: solid 1px #BDBED9;
+  background-color: #F5F5F8;
+  box-shadow: 1px 1px 6px #888888;
+  border-radius: 10px;
 }
 
-.wb-img-circled {
-  border-radius: 50%
+.wb-image-rounded img {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 6px;
+}
+
+.wb-image-circle {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: solid 1px #BDBED9;
+  background-color: #F5F5F8;
+  box-shadow: 1px 1px 6px #888888;
+  border-radius: 10px;
+}
+
+.wb-image-circle img {
+  width: 250px;
+  height: 250px;
+  margin: 0px;
+  border-radius: 50px;
+}
+
+.wb-image-square {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border: solid 1px #BDBED9;
+  background-color: #F5F5F8;
+  box-shadow: 1px 1px 6px #888888;
+  border-radius: 10px;
+}
+
+.wb-image-square img {
+  margin: 0px;
+  padding: 0px;
 }
