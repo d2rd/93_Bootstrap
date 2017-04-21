@@ -572,6 +572,9 @@ ul.wb-breadcrumb li a:hover {
   flex-wrap: wrap;
 }
 
+
+/*.wb-image-rounded{} is our picture frame*/
+
 .wb-image-rounded,
 .wb-image-circle,
 .wb-image-square {
@@ -584,20 +587,25 @@ ul.wb-breadcrumb li a:hover {
   border-radius: 10px;
 }
 
+
+/*.wb-image-rounded img {} and other children are our 'mats' around the picture.  */
+
 .wb-image-rounded img {
   margin: 0px;
-  padding: 0px;
-  border-radius: 6px;
+  padding: 2px;
+  border-radius: 25px;
 }
 
 .wb-image-circle img {
   width: 250px;
   height: 250px;
   margin: 0px;
-  border-radius: 50px;
+  border-radius: 50%;
+  background-color: #6aabbc;
 }
 
 .wb-image-square img {
   margin: 0px;
   padding: 0px;
+  border-radius: 1%;
 }
