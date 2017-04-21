@@ -572,7 +572,9 @@ ul.wb-breadcrumb li a:hover {
   flex-wrap: wrap;
 }
 
-.wb-image-rounded {
+.wb-image-rounded,
+.wb-image-circle,
+.wb-image-square {
   display: inline-block;
   margin: 5px;
   padding: 10px;
@@ -588,31 +590,11 @@ ul.wb-breadcrumb li a:hover {
   border-radius: 6px;
 }
 
-.wb-image-circle {
-  display: inline-block;
-  margin: 5px;
-  padding: 10px;
-  border: solid 1px #BDBED9;
-  background-color: #F5F5F8;
-  box-shadow: 1px 1px 6px #888888;
-  border-radius: 10px;
-}
-
 .wb-image-circle img {
   width: 250px;
   height: 250px;
   margin: 0px;
   border-radius: 50px;
-}
-
-.wb-image-square {
-  display: inline-block;
-  margin: 5px;
-  padding: 10px;
-  border: solid 1px #BDBED9;
-  background-color: #F5F5F8;
-  box-shadow: 1px 1px 6px #888888;
-  border-radius: 10px;
 }
 
 .wb-image-square img {
