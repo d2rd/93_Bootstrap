@@ -60,6 +60,48 @@ body {
 }
 
 
+/* Jumbotron */
+
+.wb-jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #dbd6d6
+}
+
+.wb-jumbotron p {
+  margin-bottom: 18px;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: 'Patrick Hand', sans-serif;
+  letter-spacing: 1.5px
+}
+
+.wb-jumbotron h1,
+.wb-jumbotron .h1 {
+  color: inherit
+}
+
+.wb-container .wb-jumbotron {
+  border-radius: 6px
+}
+
+@media screen and (min-width:768px) {
+  .wb-jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px
+  }
+  .wb-container .wb-jumbotron {
+    padding-right: 56px;
+    padding-left: 56px
+  }
+  .wb-jumbotron h1,
+  .wb-jumbotron .h1 {
+    font-size: 60px
+  }
+}
+
+
 /* alert KO */
 
 .wb-alert {
@@ -572,9 +614,6 @@ ul.wb-breadcrumb li a:hover {
   flex-wrap: wrap;
 }
 
-
-/*.wb-image-rounded{} is our picture frame*/
-
 .wb-image-rounded,
 .wb-image-circle,
 .wb-image-square {
@@ -587,25 +626,20 @@ ul.wb-breadcrumb li a:hover {
   border-radius: 10px;
 }
 
-
-/*.wb-image-rounded img {} and other children are our 'mats' around the picture.  */
-
 .wb-image-rounded img {
   margin: 0px;
-  padding: 2px;
-  border-radius: 25px;
+  padding: 0px;
+  border-radius: 6px;
 }
 
 .wb-image-circle img {
   width: 250px;
   height: 250px;
   margin: 0px;
-  border-radius: 50%;
-  background-color: #6aabbc;
+  border-radius: 50px;
 }
 
 .wb-image-square img {
   margin: 0px;
   padding: 0px;
-  border-radius: 1%;
 }
